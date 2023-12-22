@@ -12,10 +12,10 @@ public class Triangle {
 	int c = Integer.parseInt(args[2]); 
 
 	if (((a+b)>c)&&((a+c)>b)&&((b+c)>a)) {
-		System.out.print(a+ ", " +b+ ", " +c+ " : true ");
+		System.out.print(a+ ", " +b+ ", " +c+ ": true ");
 	
     } else {  
-    	System.out.print(a+ ", " +b+ ", " +c+ " : false ");	
+    	System.out.print(a+ ", " +b+ ", " +c+ ": false ");	
      }
 	}
    }
